@@ -1,0 +1,37 @@
+body {
+    color: #555;
+}
+
+.view-image {
+    height: 300px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.view-1 {
+    background: url("../assets/view-1.jpg");
+}
+.view-2 {
+    background: url("../assets/view-2.jpg");
+}
+.view-3 {
+    background: url("../assets/view-3.jpg");
+}
+
+#subscribe {
+    background: url("../assets/slider-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+}
+
+.width {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}

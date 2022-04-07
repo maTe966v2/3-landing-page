@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Landing Page</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse flex-grow-0"
+                    id="navbarNav"
+                >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Services</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#showcase">Showcase</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            src="./assets/slider-1.jpg"
+                            class="d-block w-100"
+                            alt="Slider 1"
+                        />
+                        <div class="carousel-caption d-md-block">
+                            <h5>First slide label</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="./assets/slider-2.jpg"
+                            class="d-block w-100"
+                            alt="Slider 2"
+                        />
+                        <div class="carousel-caption d-md-block">
+                            <h5>Second slide label</h5>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+        <section id="showcase" class="container-fluid">
+            <div class="showcase__pros-container text-center bg-light row">
+                <div class="pros p-5 col-md-4">
+                    <h2 class="text-dark">Fully Responsive</h2>
+                    <p>
+                        This theme will look great on any device, no matter the
+                        size!
+                    </p>
+                </div>
+                <div class="pros p-5 col-md-4">
+                    <h2 class="text-dark">Bootstrap 5 Ready</h2>
+                    <p>
+                        Featuring the latest build of the new Bootstrap 5
+                        framework!
+                    </p>
+                </div>
+                <div class="pros p-5 col-md-4">
+                    <h2 class="text-dark">Easy to Use</h2>
+                    <p>
+                        Ready to use with your own content, or customize the
+                        source files!
+                    </p>
+                </div>
+            </div>
+            <div class="showcase__details-container">
+                <div class="showcase__details row">
+                    <div class="view-image view-1 col-md-6 order-md-1"></div>
+                    <div
+                        class="details p-5 col-md-6 d-flex flex-column justify-content-center"
+                    >
+                        <h2 class="text-dark">Fully Responsive Design</h2>
+                        <p>
+                            When you use a theme created by Start Bootstrap, you
+                            know that the theme will look great on any
+                            device,whether it's a phone, tablet, or desktop the
+                            page will behave responsively!
+                        </p>
+                    </div>
+                </div>
+                <div class="showcase__details row">
+                    <div class="view-image view-2 col-md-6"></div>
+                    <div
+                        class="details p-5 col-md-6 d-flex flex-column justify-content-center"
+                    >
+                        <h2 class="text-dark">Updated For Bootstrap 5</h2>
+                        <p>
+                            Newly improved, and full of great utility classes,
+                            Bootstrap 5 is leading the way in mobile responsive
+                            web development! All of the themes on Start
+                            Bootstrap are now using Bootstrap 4!
+                        </p>
+                    </div>
+                </div>
+                <div class="showcase__details row">
+                    <div class="view-image view-3 col-md-6 order-md-1"></div>
+                    <div
+                        class="details p-5 col-md-6 d-flex flex-column justify-content-center"
+                    >
+                        <h2 class="text-dark">Easy to Use & Customize</h2>
+                        <p>
+                            Landing Page is just HTML and CSS with a splash of
+                            SCSS for users who demnad some deeper customization
+                            options. Out of the box, just add your content and
+                            images, and your new landing page will be ready to
+                            go!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="container-fluid bg-light">
+            <div class="team__container p-5 text-center row">
+                <h2 class="text-dark">Our team</h2>
+                <div class="member py-4 col-md-4">
+                    <img
+                        src="./assets/team-1.jpg"
+                        class="rounded-circle w-50"
+                        alt="Margaret picture"
+                    />
+                    <h3 class="text-dark h5 mt-3">Margaret E.</h3>
+                    <p>SEO</p>
+                </div>
+                <div class="member py-4 col-md-4">
+                    <img
+                        src="./assets/team-2.jpg"
+                        class="rounded-circle w-50"
+                        alt="Fred picture"
+                    />
+                    <h3 class="text-dark h5 mt-3">Margaret E.</h3>
+                    <p>CTO</p>
+                </div>
+                <div class="member py-4 col-md-4">
+                    <img
+                        src="./assets/team-3.jpg"
+                        class="rounded-circle w-50"
+                        alt="Sarah picture"
+                    />
+                    <h3 class="text-dark h5 mt-3">Margaret E.</h3>
+                    <p>Designer</p>
+                </div>
+            </div>
+        </section>
+        <section id="subscribe">
+            <div class="subscribe__container p-5">
+                <h2 class="subscribe-heading mb-5">
+                    Ready to get started? Sign up now!
+                </h2>
+                <div class="container">
+                    <form class="form row mx-auto w-75">
+                        <div class="mb-3 col-md-8">
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="E-mail address"
+                            />
+                        </div>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-primary w-100">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="p-5 bg-light">
+            &copy; Your Website 2022. All rights Reserved.
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
